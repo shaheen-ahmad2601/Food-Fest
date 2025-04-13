@@ -20,6 +20,37 @@
 - Tree Shaking - remove unused code
 - Different dev and prod bundles
 
+## React Concepts
+
+- **JSX** - JavaScript + XML  
+- **Components** - Building blocks of UI  
+- **Props** - For passing data to components  
+- **State** - For managing data in components  
+- **Virtual DOM** - Optimized rendering  
+- **Reconciliation** - Update DOM efficiently  
+- **React Fiber** - Internal engine for faster rendering  
+- **Component Lifecycle** (only in Class Components)  
+- **Keys in lists** - For unique identity during re-renders  
+- **Controlled vs Uncontrolled Components**  
+- **Lifting State Up** - Sharing state between components  
+- **Composition vs Inheritance**
+
+---
+
+## React Hooks
+
+- `useState()` – Manage component state  
+- `useEffect()` – Handle side effects (like API calls, event listeners)  
+- `useContext()` – Consume context without props  
+- `useReducer()` – Alternative to useState for complex logic  
+- `useRef()` – Access DOM nodes or store mutable values  
+- `useMemo()` – Memoize values to optimize performance  
+- `useCallback()` – Memoize functions to prevent re-creation  
+- `useImperativeHandle()` – Customize the instance exposed via ref  
+- `useLayoutEffect()` – Like useEffect but fires before paint  
+- `useDebugValue()` – Debug custom hooks
+
+
 # Food-App
 
 - Header
@@ -36,7 +67,8 @@
 - - Links
 - - Address
 - - Contact
-    \*/
+    
+
 
 Two types of Export/Import
 
@@ -49,13 +81,6 @@ import Component from "path";
 
 export const Component;
 import {Component} from "path";
-
-# React Hooks
-
-(Normal JS utility functions)
-
-- useState() - Superpowerful State Variables in react
-- useEffect()
 
 # 2 types Routing in web apps
 
@@ -77,7 +102,7 @@ import {Component} from "path";
 - Integration Testing
 - End to End Testing - e2e testing
 
-# Setting up Testing in our app
+# Setting up Testing
 
 - Install React Testing Library
 - Installed jest
